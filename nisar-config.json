@@ -1,0 +1,12 @@
+{
+  "name": "nisar-ai-gateway",
+  "owner": "NISAR",
+  "server": { "port": 8080 },
+  "providers": [
+    { "name": "openai" },
+    { "name": "gemini" },
+    { "name": "claude" }
+  ],
+  "mcp": { "enabled": true },
+  "a2a": { "enabled": true }
+}
