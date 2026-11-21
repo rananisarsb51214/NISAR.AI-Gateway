@@ -1,0 +1,4 @@
+FROM maximhq/bifrost:latest
+COPY nisar-config.json /app/config.json
+EXPOSE 8080
+CMD ["./bifrost", "--config", "/app/config.json"]
